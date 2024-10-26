@@ -1,5 +1,5 @@
 import express from 'express';
-import petRoutes from './routes/PetRoutes.js';
+import petRoutes from './routes/pet.routes.js';
 
 const app = express();
 app.use(express.json());

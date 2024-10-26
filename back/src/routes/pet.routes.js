@@ -1,6 +1,6 @@
 // src/routes/PetRoutes.js
 import express from 'express';
-import PetController from '../controladores/PetController.js';
+import PetController from '../controladores/pet.controller.js';
 
 const router = express.Router();
 
