@@ -1,4 +1,4 @@
-const bcrypt = require('bcryptjs');
+import bcrypt from 'bcrypt';
 
 class Adotante {
   constructor({ id, nome, email, telefone, endereco, senha, isAdmin = false }) {
